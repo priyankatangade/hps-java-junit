@@ -5,10 +5,10 @@ before_install:
   - rvm install 2.3
   - rvm use 2.3
   - gem install hiptest-publisher
-  - hiptest-publisher -c junit.conf --token=$SECRET_TOKEN --only=tests --test-run-id=1358
+  - hiptest-publisher -c junit.conf --token=$SECRET_TOKEN --only=tests --test-run-id=459281
 
 script:
   - mvn package
 
 after_script:
-  - hiptest-publisher -c junit.conf --token=$SECRET_TOKEN -p "target/surefire-reports/TEST-com.coffeemachine.*.xml" --test-run-id=1358
+  - hiptest-publisher -c junit.conf --token=$SECRET_TOKEN -p "target/surefire-reports/TEST-com.coffeemachine.*.xml" --test-run-id=459281
