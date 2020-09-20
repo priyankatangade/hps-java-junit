@@ -120,4 +120,29 @@ public class Actionwords {
 
         assertEquals(sut.getSettings(), settings);
     }
+
+	public void iTakeATypeCoffee(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void pressOnoffButtonToStartTheMachine() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void checkThatMachineIsStarted() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void iTakeCoffeeNumberCoffees(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void warningP1Displayed(String string) {
+		// TODO Auto-generated method stub
+		
+	}
 }
