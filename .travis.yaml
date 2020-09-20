@@ -1,0 +1,15 @@
+language: Java
+sudo: false
+
+
+before_install:
+  - rvm install 2.3
+  - rvm use 2.3
+  - gem install hiptest-publisher
+  - hiptest-publisher -c junit.conf --only=tests --test-run-id=459281
+
+script:
+ - mvn package
+
+after_script:
+  - hiptest-publisher -c junit.conf --push="nosetests.xml" --test-run-id=459281
