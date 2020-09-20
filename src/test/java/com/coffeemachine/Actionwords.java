@@ -142,7 +142,7 @@ public class Actionwords {
 	}
 
 	public void warningP1Displayed(String string) {
-		// TODO Auto-generated method stub
+		System.out.println("String is"+string);
 		
 	}
 }
