@@ -143,6 +143,7 @@ public class Actionwords {
 
 	public void warningP1Displayed(String string) {
 		assertTrue(sut.isDescalingNeeded());
+		System.out.println("descaling");
 		
 	}
 }
